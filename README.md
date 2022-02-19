@@ -2,9 +2,13 @@
 Однострочное решение:
 git clone https://github.com/AndriiBozhok/test_case_Genesis_devops_school.git; cd test_case_Genesis_devops_school; docker-compose up -d
 
+объяснение:
 копируем репозиторий, переходим в него, запускаем docker-compose
 
-database connection details
+Для проверки в браузере переходим по адресу - http://localhost:8000/
+
+движемся согласно инструкций.
+на этапе заполнения database connection details вводим следующие значения:
 
 Database Name: wordpress
 
