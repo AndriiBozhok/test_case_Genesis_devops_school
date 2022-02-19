@@ -9,8 +9,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: qwerty
       MYSQL_DATABASE: wordpress
-      MYSQL_USER: username
-      MYSQL_PASSWORD: password
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
     networks:
       - site
   
@@ -24,8 +24,8 @@ services:
     volumes: ['./:/var/www/html']
     environment:
       WORPRESS_DB_HOST: db:3306
-      WORPRESS_DB_USER: username
-      WORPRESS_DB_PASSWORD: password
+      WORPRESS_DB_USER: wordpress
+      WORPRESS_DB_PASSWORD: wordpress
     networks:
       - site
 
