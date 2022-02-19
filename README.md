@@ -1,5 +1,6 @@
 Доброго времени суток!
 Однострочное решение:
+
 git clone https://github.com/AndriiBozhok/test_case_Genesis_devops_school.git; cd test_case_Genesis_devops_school; docker-compose up -d
 
 объяснение:
